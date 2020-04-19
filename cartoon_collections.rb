@@ -6,9 +6,9 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)
-  # Your code here
+  # modifies the original calls array with .capitalize on each element while also adding "!" to the end of each element. clean and clever
   calls.map do |call|
-    call.capitalize << "!"
+    call.capitalize << "!" 
   end
 end
 
