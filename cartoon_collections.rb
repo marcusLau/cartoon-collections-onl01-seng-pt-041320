@@ -1,6 +1,8 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(names)
   # Your code here
-  
+  for i in 0..names.length-1
+    puts names[i]
+  end
 end
 
 def summon_captain_planet# code an argument here
