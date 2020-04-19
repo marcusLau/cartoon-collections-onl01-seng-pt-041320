@@ -8,7 +8,8 @@ end
 def summon_captain_planet(calls)
   # Your code here
   for i in 0..calls.length-1
-    calls[i] = 
+    calls[i] = calls[i].capitalize.concat("!")
+  end
 end
 
 def long_planeteer_calls# code an argument here
