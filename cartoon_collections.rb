@@ -9,7 +9,7 @@ def summon_captain_planet(calls)
   # Your code here
   new_calls = []
   calls.map do |call|
-    new_calls << call.capitalize+"!"
+    new_calls << call.capitalize.concat("!")
   end
 end
 
