@@ -27,7 +27,13 @@ def long_planeteer_calls(calls)
   return result
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(foods)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  # iterate and return 1st string that is a a cheese ^ 
+  
+  for i in 0..foods.length-1
+    if cheese_types.includes
+  
+  
 end
