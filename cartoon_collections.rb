@@ -13,7 +13,12 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  # Your code here
+  # if length of element is > 4, false
+  # else true
+  
+  result = false
+  for i in 0..calls.length-1
+    if calls[i].length > 4 
   
 end
 
