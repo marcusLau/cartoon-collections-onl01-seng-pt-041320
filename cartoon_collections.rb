@@ -20,7 +20,6 @@ def long_planeteer_calls(calls)
   for i in 0..calls.length-1
     if calls[i].length > 4 
       result = true
-    end
     else 
       result = false
     end
