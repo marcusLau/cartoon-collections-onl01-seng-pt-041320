@@ -5,8 +5,10 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(calls)
   # Your code here
+  for i in 0..calls.length-1
+    calls[i] = 
 end
 
 def long_planeteer_calls# code an argument here
